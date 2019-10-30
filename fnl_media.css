@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (max-width: 500px orientation: portrait) {
+	nav#project > ul{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		height: 240px;
+	}
+	
+	li {
+		font-size: 0.5em;
+	}
+	
+	p {
+		font-size: 0.5em;
+	}
+	
+	aside {
+		font-size: 0.5em;
+	}
+	
+	
+}
+	
+	@media only screen and (max-width: 500px orientation: landscape) {
+	nav#project > ul{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		height: 240px;
+	}
+		li {
+		font-size: 0.5em;
+	}
+	
+	p {
+		font-size: 0.5em;
+	}
+	
+	aside {
+		font-size: 0.5em;
+	}
+	
+}
+		

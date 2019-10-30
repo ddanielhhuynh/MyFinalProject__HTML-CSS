@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<head>
+	<!--
+	Author: Daniel Huynh
+    Date: 02/25/19
+	-->
+<meta charset="utf-8">
+	<!-- Change All This -->
+	<meta name="Title" content="Poetry">
+	<meta name="Author" content="Daniel Huynh">
+	<meta name="Description" content="Daniel Huynh's - Home Page">
+	<meta name="keywords" content="Poem, Springboro, Edgar Allan Poe, The Raven, Memes">
+	<link href="fnl_body.css" rel="stylesheet"/>
+	<link href="fnl_media.css" rel="stylesheet" media="screen"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link href="fnl_printHome.css" rel="stylesheet" media="print"/>
+	<script src="fnl_validate.js"></script>
+<title>Page 2</title>
+</head>
+
+<body>
+	<body onload='setFocusToTextBox()'>
+	<div id="title">
+		<h1>
+		<a name="top"><em>Daniel Huynh's Poem Page</em></a>
+		</h1>
+	</div>
+	<div id="header" class="clearfix">	
+		<h1>
+			<a href="index.htm"><img src="logo.png" alt="Happiness Project" title="Smile Poets"/></a>
+			<nav id="project">
+				<ol>
+					<hr>
+					<li><a href="fnl_hproject.html" style="text-decoration: none;">Page #1</a></li>
+					<li><a href="index.htm" style="text-decoration: none;">Home</a></li>
+					</hr>
+				</ol>
+			</nav>
+		</h1>
+	</div>
+<div>
+	<p id="description">
+		Below is a survey for your to take! Please enjoy.
+		<img src="survey.jpg" alt="Survey" title="Survey Images">
+	</p>
+	</p>
+</div>
+<div id="form">
+	<form id="reqInfo" name="mainForm" action="htttp://www.poetryfoundation.com" method="post">
+			<div>
+				<label for="nameBox">Name</label>
+				<input name="Name" id="nameBox" type="name" placeholder="First and Last Name"  required/>
+			</div>  
+		 	<div>
+				<label for="phoneBox">Phone</label>
+				<input id="phoneBox" name="Phone" type="tel" placeholder="(nnn) nnn-nnnn" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" required />
+			</div>		
+			<div>
+			<label for="addressBox">Enter Address</label>
+			<textarea id="addressBox" name="Address" placeholder="Enter address" required></textarea>
+			</div>
+			<div>
+				<input name="preference" id="Music" type="radio" checked/>
+				<label for="Music">Music</label>
+				<input name="preference" id="Poetry" type="radio"/>
+				<label for="Poems">Poems</label>
+			</div>
+		<fieldset id="musicInfo">
+			<legend>Music</legend>
+		  <textarea id="genreBox" name="genre" placeholder="Enter Favorite Song"></textarea>
+			<div>
+			<input name="age" id="Less18" type="radio" checked/>
+			<label for="Less18">Less Than 18</label>
+			<input name="age" id="Greater18" type="radio"/>
+			<label for="Greater18">Greater Than 18</label>
+			</div>
+			<caption>Select Your Favorite Genres</caption>
+			<input name="checkbox" id="pop" type="checkbox"/>
+			<label for="pop">Pop</label>
+			<input name="checkbox" id="rock" type="checkbox"/>
+			<label for="rock">Rock</label>
+			<input name="checkbox" id="EDM" type="checkbox"/>
+			<label for="EDM">EDM</label>
+			<input name="checkbox" id="Classical" type="checkbox"/>
+			<label for="Classical">Classic</label>
+			<input name="checkbox" id="Jazz" type="checkbox"/>
+			<label for="Jazz">Jazz</label>
+			<div>
+			  <p>
+             <label>Gender</label>
+             <select id = "genderList">
+               <option value = "1">Male</option>
+               <option value = "2">Female</option>
+             </select>
+          </p>
+			</div>
+		</fieldset>
+		<fieldset id="poemInfo">
+			<legend>Poems</legend>
+				<textarea id="genreBox2" name="genre" placeholder="Enter Favorite Poem"></textarea>
+			<div>
+			<input name="age" id="Less18" type="radio" checked/>
+			<label for="Less18">Less Than 18</label>
+			<input name="age" id="Greater18" type="radio"/>
+			<label for="Greater18">Greater Than 18</label>
+			</div>
+			<caption>Select Your Favorite Poet</caption>
+			<input name="checkbox" id="poe" type="checkbox"/>
+			<label for="poe">Edgar Poe</label>
+			<input name="checkbox" id="Silverstein" type="checkbox"/>
+			<label for="Silverstein">Shel Silverstein</label>
+			<input name="checkbox" id="Frost" type="checkbox"/>
+			<label for="Frost">Robert Frost</label>
+			<input name="checkbox" id="EE" type="checkbox"/>
+			<label for="EE">EE. Cummings</label>
+			<input name="checkbox" id="emily" type="checkbox"/>
+			<label for="Emily">Emily Dickinson</label>
+			<div>
+				<p>
+             <label>Gender</label>
+             <select id = "genderListP">
+               <option value = "1">Male</option>
+               <option value = "2">Female</option>
+             </select>
+          </p>
+			</div>
+		</fieldset>
+	  <input type="hidden" id="survey" name="surveyId" value="3487">
+		<div>
+			<button>Submit</button>
+		</div>
+         		
+	</form>
+				
+</div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 5
+   Review Assignment
+   
+   Author:   Daniel Huynh
+   Date:    03/18/2019
+   
+   Filename: tf_print2.css
+
+   This file contains the printer styles used with the Trusted
+   Friends Parents Tips page
+
+*/
+
+
+
+/* Hidden Objects */
+nav, body > footer {
+	display: none;
+}
+
+
+/* Page Box Styles */
+@page{
+	size: 8.5in 11in;
+	margin: 0.5in;
+}
+
+iframe{
+	display: none;
+}
+
+aside{
+	display: none;
+}
+
+p{
+	font-size: 12pt;
+	margin-top: 0.1in;
+	margin-bottom: 0.1in;
+}
+
+
+a{
+	color: black;
+	text-decoration: none;
+}
+a::after{
+	content: " (" attr(href) ") ";
+	font-weight: bold;
+	word-wrap: break-word;
+}
+
+

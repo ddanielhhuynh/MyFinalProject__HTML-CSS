@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+div#title {
+	
+	display: block;
+	text-align: center;
+	padding: 1%;
+}
+nav {
+	display: block;
+}
+
+nav#project ol li{
+	list-style: none;
+	font-size: 1em; 
+	float: left;
+	padding: 1%;
+   margin: 0% 6% 0% 23%;
+}
+nav#project ol li a{
+	display: block;
+	text-decoration-line: none;
+	width: 25%;
+}
+nav#project ol li a:hover {
+	color: rgb(255, 183,25);
+	text-shadow: 0px 15px 4px rgba(0,0,0,0.5);
+	transform: scale(1.5,1.5) translateY(-10px);
+}
+
+nav#website{
+	align-content: center;
+}
+
+nav#website ul {
+	float: right;
+	text-align: left;
+}
+
+hr{
+	margin: 0% 10% 0% 10%;
+}
+
+article h1{
+	display: block;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	float: none;
+	text-align: center;
+	text-decoration: none;
+	font-weight: normal;
+	margin: 0% 10% 0% 10%;
+}
+
+aside nav#website ul li {
+	list-style: none;
+}
+
+aside nav#website ul{
+	float: right;
+	margin: 0% 4% 0% 0%;
+	padding: 1%;
+	width: 35%;
+	font-size: 0.9em;
+	background-color: #ffdcdb;
+	border: 1px solid rgb(1, 1, 1);
+}
+
+iframe {
+	position: relative;
+	float: left;
+	align-content: center;
+	width: 50%;
+	margin 1%;
+	padding: 1%;
+	border: thick rgba(0,0,0,1.00);
+}
+
+footer {
+	float: right;
+	margin: 0% 4% 0% 0%;
+	padding: 1%;
+	width: 37.5%;
+	font-size: 1em;
+}
+
+
